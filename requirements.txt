@@ -1,0 +1,10 @@
+langchain
+openai
+faiss-cpu
+pypdf
+python-docx
+fastapi
+uvicorn
+streamlit
+sentence-transformers
+tiktoken
