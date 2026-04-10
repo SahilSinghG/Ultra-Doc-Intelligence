@@ -98,9 +98,9 @@ Strict grounding to document
 
 Confidence is calculated using:
 
-confidence = 1 / (1 + FAISS distance)
-Lower distance → higher confidence
-Helps determine answer reliability
+- confidence = 1 / (1 + FAISS distance)
+- Lower distance → higher confidence
+- Helps determine answer reliability
 
 ### 6. Structured Extraction
 
@@ -137,10 +137,10 @@ Missing fields → null
 
 Built using Streamlit:
 
-Upload documents
-Ask questions
-View answers + sources + confidence
-Run structured extraction
+- Upload documents
+- Ask questions
+- View answers + sources + confidence
+- Run structured extraction
 
 ## 🔄 API Endpoints
 
