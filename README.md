@@ -26,11 +26,17 @@ Reliability (guardrails)
 ## ⚙️ Tech Stack
 
 Backend: FastAPI
+
 Frontend: Streamlit
+
 LLM: Ollama (Mistral)
+
 Embeddings: sentence-transformers (MiniLM)
+
 Vector DB: FAISS
+
 Document Parsing: PyPDFLoader / pdfplumber
+
 Orchestration: LangChain
 
 ## 📂 Features
