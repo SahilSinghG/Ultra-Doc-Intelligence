@@ -218,18 +218,18 @@ Streaming responses for faster UX
 
 ## 🚀 How to Run Locally
 
-1. Clone repo
+### 1. Clone repo
 - git clone https://github.com/SahilSinghG/Ultra-Doc-Intelligence
 - cd ultra-doc-intelligence
 
-2. Install dependencies
-pip install -r requirements.txt
+### 2. Install dependencies
+- pip install -r requirements.txt
 
-3. Run backend
-uvicorn backend.main:app --reload
+### 3. Run backend
+- uvicorn backend.main:app --reload
 
-4. Run frontend
-streamlit run frontend/app.py
+### 4. Run frontend
+- streamlit run frontend/app.py
 
 <img width="615" height="752" alt="image" src="https://github.com/user-attachments/assets/3ca1a525-3b15-4c55-9195-83668e1f109b" />
 
