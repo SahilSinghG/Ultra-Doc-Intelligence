@@ -1,4 +1,4 @@
-# 🚀 Ultra Doc-Intelligence
+<img width="615" height="752" alt="image" src="https://github.com/user-attachments/assets/c32a057f-2b9d-44c9-882f-0c495e8d08ea" /># 🚀 Ultra Doc-Intelligence
 
 An AI-powered document understanding system that enables users to upload logistics documents and interact with them using natural language queries.
 
@@ -32,8 +32,8 @@ Reliability (guardrails)
                        │
         ┌──────────────┼──────────────┐
         ▼                             ▼
-Document Processing           RAG Pipeline
-(Parse + Chunk + Embed)      (Retrieve + LLM)
+Document Processing                RAG Pipeline
+(Parse + Chunk + Embed)           (Retrieve + LLM)
 
         ▼                             ▼
      FAISS Vector DB           Answer Generation
@@ -192,9 +192,11 @@ All handled in separate modules
 
 ## ⚠️ Failure Cases
 
-Poor PDF extraction for complex layouts
-Missing labels (e.g., "Name" not explicitly present)
-Multiple values ambiguity (e.g., multiple phone numbers)
+- Poor PDF extraction for complex layouts
+- Missing labels (e.g., "Name" not explicitly present)
+- Multiple values ambiguity (e.g., multiple phone numbers)
+- `vector_db/` and `uploaded_docs/` are generated at runtime
+- Please upload a document before using `/ask` or `/extract`
 
 ## 🔧 Improvements
 
@@ -218,6 +220,9 @@ uvicorn backend.main:app --reload
 
 4. Run frontend
 streamlit run frontend/app.py
+
+<img width="615" height="752" alt="image" src="https://github.com/user-attachments/assets/3ca1a525-3b15-4c55-9195-83668e1f109b" />
+
 
 ## 📊 Evaluation Alignment
 
