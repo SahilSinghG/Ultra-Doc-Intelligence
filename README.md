@@ -256,10 +256,10 @@ This solution addresses all evaluation criteria :
 
 This project demonstrates a production-style AI system that:
 
-Handles real-world document noise
-Prevents hallucination
-Provides explainable outputs
-Maintains modular architecture
+- Handles real-world document noise
+- Prevents hallucination
+- Provides explainable outputs
+- Maintains modular architecture
 
 ## 👨‍💻 Author
 
