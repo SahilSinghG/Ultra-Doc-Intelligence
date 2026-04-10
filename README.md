@@ -1,4 +1,4 @@
-<img width="615" height="752" alt="image" src="https://github.com/user-attachments/assets/c32a057f-2b9d-44c9-882f-0c495e8d08ea" /># 🚀 Ultra Doc-Intelligence
+# 🚀 Ultra Doc-Intelligence
 
 An AI-powered document understanding system that enables users to upload logistics documents and interact with them using natural language queries.
 
@@ -21,24 +21,7 @@ Reliability (guardrails)
 
 ## 🏗️ Architecture
 
-                ┌──────────────┐
-                │   Frontend   │ (Streamlit)
-                └──────┬───────┘
-                       │
-                       ▼
-                ┌──────────────┐
-                │   FastAPI    │
-                └──────┬───────┘
-                       │
-        ┌──────────────┼──────────────┐
-        ▼                             ▼
-Document Processing                RAG Pipeline
-(Parse + Chunk + Embed)           (Retrieve + LLM)
-
-        ▼                             ▼
-     FAISS Vector DB           Answer Generation
-        ▼                             ▼
-   Structured Extraction      Guardrails + Confidence
+<img width="670" height="467" alt="image" src="https://github.com/user-attachments/assets/a1c8915f-8cc6-4ce7-a00b-a457826a67ae" />
    
 ## ⚙️ Tech Stack
 
