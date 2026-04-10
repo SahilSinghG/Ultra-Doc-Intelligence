@@ -202,9 +202,13 @@ All handled in separate modules
 ## 🔧 Improvements
 
 Use layout-aware parsers (LayoutLM, OCR)
+
 Hybrid retrieval (keyword + vector)
+
 Better confidence scoring (multi-factor)
+
 Multi-document querying with document IDs
+
 Streaming responses for faster UX
 
 ## 🚀 How to Run Locally
@@ -230,11 +234,17 @@ streamlit run frontend/app.py
 This solution addresses all evaluation criteria :
 
 ✔ Retrieval grounding quality
+
 ✔ Extraction accuracy
+
 ✔ Guardrail effectiveness
+
 ✔ Confidence scoring logic
+
 ✔ Code structure
+
 ✔ End-to-end usability
+
 ✔ Practical AI engineering judgment
 
 ## 💡 Conclusion
