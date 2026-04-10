@@ -8,10 +8,10 @@ This project simulates an intelligent assistant inside a Transportation Manageme
 
 This system allows users to:
 
-Upload logistics documents (PDF, DOCX, TXT)
-Ask natural language questions about the document
-Receive grounded answers with sources + confidence score
-Extract structured shipment data in JSON format
+- Upload logistics documents (PDF, DOCX, TXT)
+- Ask natural language questions about the document
+- Receive grounded answers with sources + confidence score
+- Extract structured shipment data in JSON format
 
 The system is designed to prioritize:
 
