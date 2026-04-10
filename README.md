@@ -159,12 +159,13 @@ POST /reset
 
 ## 🧠 Key Design Decisions
 
-1. RAG over fine-tuning
+### 1. RAG over fine-tuning
 
 More flexible
 Works with dynamic documents
 
-2. Chunking Strategy
+### 2. Chunking Strategy
+
 RecursiveCharacterTextSplitter
 Chunk size: ~300
 Overlap: ~80
@@ -174,20 +175,20 @@ Reason:
 Maintains context
 Improves retrieval quality
 
-3. Retrieval Method
+### 3. Retrieval Method
 
 FAISS similarity search
 Top-k chunks (k=3–5)
 Distance-based filtering
 
-4. Guardrails Before LLM
+### 4. Guardrails Before LLM
 
 LLM is only called if:
 
 Relevant chunks exist
 Similarity passes threshold
 
-5. Separation of Concerns
+### 5. Separation of Concerns
 
 Document processing
 Retrieval
