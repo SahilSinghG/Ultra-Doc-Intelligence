@@ -44,22 +44,24 @@ Orchestration: LangChain
 1. Document Upload & Processing
 
 Supports:
-PDF
-DOCX
-TXT
+
+- PDF
+- DOCX
+- TXT
 
 Pipeline:
-Text extraction
-Cleaning
-Chunking
-Embedding generation
-Storage in FAISS vector DB
+
+- Text extraction
+- Cleaning
+- Chunking
+- Embedding generation
+- Storage in FAISS vector DB
 
 2. Retrieval-Augmented Generation (RAG)
 
-User queries are matched against document embeddings
-Top-k relevant chunks are retrieved
-LLM generates answers only from retrieved context
+- User queries are matched against document embeddings
+- Top-k relevant chunks are retrieved
+- LLM generates answers only from retrieved context
 
 3. Grounded Question Answering
 
@@ -67,11 +69,14 @@ Each response includes:
 
 {
   "answer": "...",
+  
   "sources": ["..."],
+  
   "confidence": 0.42
 }
 
 ✔ Ensures explainability
+
 ✔ Prevents hallucination
 
 4. Guardrails
