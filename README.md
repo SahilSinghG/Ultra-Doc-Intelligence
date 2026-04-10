@@ -219,8 +219,8 @@ Streaming responses for faster UX
 ## 🚀 How to Run Locally
 
 1. Clone repo
-git clone <repo_url>
-cd ultra-doc-intelligence
+- git clone https://github.com/SahilSinghG/Ultra-Doc-Intelligence
+- cd ultra-doc-intelligence
 
 2. Install dependencies
 pip install -r requirements.txt
