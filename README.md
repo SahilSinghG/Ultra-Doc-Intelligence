@@ -41,7 +41,7 @@ Orchestration: LangChain
 
 ## 📂 Features
 
-1. Document Upload & Processing
+### 1. Document Upload & Processing
 
 Supports:
 
@@ -57,13 +57,13 @@ Pipeline:
 - Embedding generation
 - Storage in FAISS vector DB
 
-2. Retrieval-Augmented Generation (RAG)
+### 2. Retrieval-Augmented Generation (RAG)
 
 - User queries are matched against document embeddings
 - Top-k relevant chunks are retrieved
 - LLM generates answers only from retrieved context
 
-3. Grounded Question Answering
+### 3. Grounded Question Answering
 
 Each response includes:
 
@@ -79,7 +79,7 @@ Each response includes:
 
 ✔ Prevents hallucination
 
-4. Guardrails
+### 4. Guardrails
 
 Implemented guardrails include:
 
@@ -94,7 +94,7 @@ This ensures:
 No hallucinated answers
 Strict grounding to document
 
-5. Confidence Scoring
+### 5. Confidence Scoring
 
 Confidence is calculated using:
 
@@ -102,7 +102,7 @@ confidence = 1 / (1 + FAISS distance)
 Lower distance → higher confidence
 Helps determine answer reliability
 
-6. Structured Extraction
+### 6. Structured Extraction
 
 Extracts shipment data into JSON:
 
@@ -133,7 +133,7 @@ Extracts shipment data into JSON:
 Uses LLM with strict JSON prompting
 Missing fields → null
 
-7. Minimal UI
+### 7. Minimal UI
 
 Built using Streamlit:
 
