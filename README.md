@@ -79,7 +79,9 @@ Each response includes:
 Implemented guardrails include:
 
 ❌ Reject queries if no relevant chunks found
+
 ❌ Return "Not found in document" when context missing
+
 ❌ Avoid LLM execution if retrieval fails
 
 This ensures:
@@ -101,15 +103,25 @@ Extracts shipment data into JSON:
 
 {
   "shipment_id": "...",
+  
   "shipper": "...",
+  
   "consignee": "...",
+  
   "pickup_datetime": "...",
+  
   "delivery_datetime": "...",
+ 
   "equipment_type": "...",
+  
   "mode": "...",
+  
   "rate": "...",
+  
   "currency": "...",
+  
   "weight": "...",
+  
   "carrier_name": "..."
 }
 
